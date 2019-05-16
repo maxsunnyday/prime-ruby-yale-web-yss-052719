@@ -6,7 +6,7 @@ def prime?(number)
     return true
   else
     test = 2
-      if number % test == 0
+      if number % 2 == 0
         return false
       #elsif test > Math.sqrt(number)
       #  return true
