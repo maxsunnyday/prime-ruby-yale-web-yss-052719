@@ -4,6 +4,6 @@ def prime?(number)
   if number < test
     return false
   else
-
+    return true
   end
 end
