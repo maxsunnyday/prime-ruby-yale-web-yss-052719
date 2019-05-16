@@ -10,6 +10,7 @@ def prime?(number)
         break
       else
         test += 1
+        return true
       end
     end
   end
