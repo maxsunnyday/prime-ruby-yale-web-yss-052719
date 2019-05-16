@@ -4,7 +4,7 @@ def prime?(number)
   if number < test
     return false
   else
-    while test <= Math.sqrt(number)
+    while test < number
       if number % test == 0
         return false
         break
