@@ -4,13 +4,12 @@ def prime?(number)
     return false
   else
     test = 2
-    while test < Math.sqrt(number + 1)
+    while test < number
       if number % test == 0
         return false
         break
       else
         test += 1
-        return true
       end
     end
   end
