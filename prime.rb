@@ -8,6 +8,9 @@ def prime?(number)
       if number % test == 0
         return false
         break
+      elsif test > Math.sqrt(number)
+        return true
+        break
       else
         test += 1
       end
