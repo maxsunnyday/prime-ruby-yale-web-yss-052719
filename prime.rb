@@ -16,3 +16,5 @@ def prime?(number)
       end
   end
 end
+
+prime?(get.chomp)
