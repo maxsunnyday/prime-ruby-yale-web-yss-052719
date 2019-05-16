@@ -1,6 +1,7 @@
 # Add  code here!
 def prime?(number)
   test = 2
+  return true
   while test <= Math.sqrt(number)
     if number % test == 0
       return false
