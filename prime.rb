@@ -8,10 +8,8 @@ def prime?(number)
     test = 2
       if number % test == 0
         return false
-        break
       elsif test > Math.sqrt(number)
         return true
-        break
       else
         test += 1
       end
