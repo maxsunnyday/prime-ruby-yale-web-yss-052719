@@ -6,14 +6,18 @@ def prime?(number)
     return true
   else
     test = 2
-      if number % 2 == 0
+    loop do
+      if number % test == 0
         return false
-      #elsif test > Math.sqrt(number)
-      #  return true
+        break
+      elsif test > Math.sqrt(number)
+        return true
+        break
       else
         test += 1
         return true
       end
+    end
   end
 end
 
