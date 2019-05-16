@@ -5,8 +5,12 @@ def prime?(number)
     if number % test == 0
       return false
       break
+    elsif number == 1
+      return false
+      break
     else
       test += 1
+      return true
     end
   end
 end
