@@ -1,9 +1,16 @@
 # Add  code here!
 def prime?(number)
-  test = 2
-  if number < test
+  if number < 2
     return false
   else
-    return true
+    test = 2
+    while test < Math.sqrt(number + 1)
+      if number % test == 0
+        return false
+        break
+      else
+
+      end
+    end
   end
 end
