@@ -8,10 +8,11 @@ def prime?(number)
     test = 2
       if number % test == 0
         return false
-      elsif test > Math.sqrt(number)
-        return true
+      #elsif test > Math.sqrt(number)
+      #  return true
       else
         test += 1
+        return true
       end
   end
 end
