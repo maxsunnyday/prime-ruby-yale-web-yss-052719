@@ -6,7 +6,7 @@ def prime?(number)
     if number % test == 0
       return false
       break
-    elsif number == 1
+    elsif number < 2
       return false
       break
     else
