@@ -6,7 +6,7 @@ def prime?(number)
     return true
   else
     test = 2
-    while test < number
+    loop do
       if number % test == 0
         return false
         break
