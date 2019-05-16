@@ -2,6 +2,7 @@
 def prime?(number)
   test = 2
   return false
+  return true
   if number < test
     return false
   else
